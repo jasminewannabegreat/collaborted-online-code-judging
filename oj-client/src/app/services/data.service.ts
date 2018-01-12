@@ -22,7 +22,7 @@ export class DataService {
         .catch(this.handleError)
         return this._problemSource.asObservable();
   }
-
+  //return a specific problem
   getProblem(id: number){
     //return this.problems.find( (problem ) => problem.id === id);
     return this.http.get(`api/v1/problems/${id}`)

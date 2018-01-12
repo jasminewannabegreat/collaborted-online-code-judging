@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import {problem} from 'app/data-structure/problem';
-
+//define the default problem setting
 const DEFAULT_PROBLEM:problem=Object.freeze({
   id:0,
   name:'',

@@ -56,7 +56,7 @@ export class EditorComponent implements OnInit {
 
       this.collaboration.restoreBuffer();
   }
-
+  //submit code to server to run buildANdRun
   submit(){
     const code = this.editor.getValue();
     // console.log(code);
